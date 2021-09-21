@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-header{
+    display: flex;
+    height: 100px;
+    background-color: cadetblue;
+}
+.header-left, .header-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-icon{
+    width: 64px;
+}
+.header-img{
+    height: 100%;
+    margin-left: 10px;
+}
